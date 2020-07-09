@@ -1,0 +1,49 @@
+.logo {
+  height: 100px;
+  width: auto;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40vh
+}
+
+.logo1 {
+  height: 100px;
+  width: auto;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+}
+.loader {
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid #4a9c51;
+    width: 70px;
+    height: 70px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    position: fixed;
+    z-index: 130;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.overlay-bg {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+}
